@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+    <h1>Calculadora</h1>
+<div class="divTudo">
+    <div id="result">0</div>
+
+    <div class="divCada">
+        <button class="botao" onclick="limpar()">C</button>
+        <button class="botaoClaro" onclick="clicar(`/`)">÷</button>
+        <button class="botaoClaro" onclick="clicar(`*`)">x</button>
+        <button class="botaoLaranja" onclick="clicar(`-`)">-</button>
+    </div>
+    <div class="divCada">
+        <button class="botao" onclick="clicar(`7`)">7</button>
+        <button class="botao" onclick="clicar(`8`)">8</button>
+        <button class="botao" onclick="clicar(`9`)">9</button>
+        <button class="botaoLaranja" onclick="clicar(`+`)">+</button>
+    </div>
+    <div class="divCada">
+        <button class="botao" onclick="clicar(`4`)">4</button>
+        <button class="botao" onclick="clicar(`5`)">5</button>
+        <button class="botao" onclick="clicar(`6`)">6</button>
+        <button class="botaoIgual" id="tresLinhas" onclick="resultadoFinal()">=</button>
+    </div>
+    <div class="divCada">
+        <button class="botao" onclick="clicar(`1`)">1</button>
+        <button class="botao" onclick="clicar(`2`)">2</button>
+        <button class="botao" onclick="clicar(`3`)">3</button>
+    </div>
+    <div class="divCada" >
+        <button class="botaoZero" onclick="clicar(`0`)">0</button>
+        <button class="botao" onclick="clicar(`.`)">.</button>
+    </div>
+</div>
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,70 @@
+*{padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+.divTudo{
+    background-color: #333;
+    width: 22vw;
+    margin-left: 620px;
+    gap: 10px;
+    border-radius: 30px;
+}
+#result{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #000;
+    width: 22vw;
+    height: 9vh;
+    font-size: 40px;
+    color: white;
+    border-radius: 30px;
+}
+.botao{
+    font-size: 30px;
+    width: 5vw;
+    height: 9vh;
+    border-radius: 50%;
+    background-color: #505050;
+    color: white;
+    margin-top: 10px;
+}
+.botaoClaro{
+    font-size: 30px;
+    width: 5vw;
+    height: 9vh;
+    border-radius: 50%;
+    background-color: #a6a6a6;
+    color: #000;
+}
+.botaoLaranja{
+    font-size: 30px;
+    width: 5vw;
+    height: 9vh;
+    border-radius: 50%;
+    background-color: #ff9500;
+    color: white;
+}
+.botaoIgual{
+    font-size: 30px;
+    width: 5vw;
+    height: 9vh;
+    border-radius: 50%;
+    background-color: #ff9500;
+    color: white;
+}
+.botaoZero{
+    font-size: 30px;
+    width: 10.5vw;
+    height: 9vh;
+    border-top-left-radius: 20%;
+    border-bottom-left-radius: 20%;
+    border-top-right-radius: 20%;
+    border-bottom-right-radius: 20%;
+    background-color: #505050;
+    color: white;
+}
+
